@@ -18,6 +18,10 @@ nav {
     margin: 76px 0 0 315px;
     position: relative;
 }
+nav li a:hover {
+    color: #fff;
+    background-color: #626262;
+}
 ul {
     list-style: none;
     display: inline-block;
