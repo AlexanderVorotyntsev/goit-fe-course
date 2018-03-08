@@ -12,11 +12,11 @@
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
+    padding: 50px 0;
 }
 
 nav {
-    margin: 76px 0 0 315px;
-    position: relative;
+    margin-bottom: 102px;
 }
 nav li a:hover {
     color: #fff;
@@ -24,20 +24,16 @@ nav li a:hover {
 }
 ul {
     list-style: none;
-    display: inline-block;
+    text-align: center;
 }
 li {
     display: inline-block;
+    margin: 0 100px 0 0;
 }
-ul li:nth-child(1) {
-    margin-right: 123px;
+li:last-child { 
+    margin: 0;
 }
-ul li:nth-child(2) {
-    margin-right: 104px;
-}
-ul li:nth-child(3) {
-    margin-right: 95px;
-}
+
 li a {
     text-decoration: none;
     text-transform: uppercase;
@@ -46,8 +42,10 @@ li a {
     color: #626262;
 }
 span {
+    display: inline-block;
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
+    margin-bottom: 40px;
     text-transform: uppercase;
     color: #b4ad9e;
 }
@@ -55,45 +53,36 @@ h2 {
     font-size: 30px;
     line-height: 36px;
     font-weight: normal;
-    margin: 40px 0;
+    margin-bottom: 40px;
 }
 img {
     margin-bottom: 32px;
-}
-.section-one {
-    display: inline-block;
-    margin-top: 102px;
 }
 .block-one {
     display: inline-block;
     width: 420px;
     margin-right: 54px;
-    text-align: initial
+    text-align: initial;
+    margin-bottom: 134px;
 }
 .block-two {
     display: inline-block;
     width: 420px;
-    text-align: initial
-}
-.section-two {
-    display: inline-block;
-    margin-top: 134px;
-    
+    text-align: initial;
+    margin-bottom: 134px;
 }
 .block-three {
     display: inline-block;
     width: 420px;
     margin-right: 54px;
-    text-align: initial
+    text-align: initial;
+    margin-bottom: 140px;
 }
 .block-four {
     display: inline-block;
     width: 420px;
-    text-align: initial
-}
-.section-three {
-    display: inline-block;
-    margin-top: 140px;
+    text-align: initial;
+    margin-bottom: 140px;
 }
 .block-five {
     display: inline-block;
@@ -107,15 +96,19 @@ img {
     text-align: initial
 }
 
-.button {
-    display: inline-block;
+form {
+    margin-bottom: 69px;
+}
+button {
+    display: block;
     text-align: center;
     text-decoration: none;
     border-style: solid;
     border-color: #626262;
-    margin: 55px 0 69px;
+    background-color: white;
     width: 164px;
-    padding: 21px;
+    height: 66px;
+    margin: 0 auto;
     border-width: 1px;
     font-size: 20px;
     line-height: 24px;
