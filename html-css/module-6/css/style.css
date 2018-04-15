@@ -223,9 +223,27 @@ p.text {
     height: 58px;
     background-color: #fce38a;
 }               
-.submenu img {
-    padding: 17px;
-}                
+.submenu-item>.facebook {
+    position: absolute;
+    left: 23px;
+    top: 17px;
+}
+.submenu-item>.twitter {
+    position: absolute;
+    left: 17px;
+    top: 19px;
+}
+.submenu-item>.pinterest {
+    position: absolute;
+    left: 19px;
+    top: 17px;
+}
+.submenu-item>.instagram {
+    position: absolute;
+    left: 17px;
+    top: 17px;
+}
+
 .submenu-item:first-of-type {
     position: absolute;
     left: 78px;
